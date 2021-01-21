@@ -15,7 +15,7 @@ import { GiftedChat } from "react-native-gifted-chat";
 import "firebase/firestore";
 
 firebaseConfig = {
-  apiKey: "AIzaSyBI0D7y81ggBgsrsoSJY8xqvgGrWURODYc",
+  apiKey: process.env.API_KEY,
   authDomain: "react-native-chat-2f36d.firebaseapp.com",
   projectId: "react-native-chat-2f36d",
   storageBucket: "react-native-chat-2f36d.appspot.com",
